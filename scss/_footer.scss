@@ -1,0 +1,25 @@
+.foot{ 
+	
+    width: 100%;
+	text-align: right;
+	color: #fff;
+	background-image:url('../img/Red3.png');
+	background-size: 100% 100%;
+	float: right;
+	clear: both;
+	padding-top: 80px;
+	padding-bottom: 30px;
+
+	
+	p{
+	margin:0 auto;
+    font-size: 1.1rem;
+	max-width: $breakpoint-large;
+	text-shadow: $blackshadow;
+
+	}
+}
+
+
+
+

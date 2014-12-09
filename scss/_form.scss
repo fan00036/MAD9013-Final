@@ -1,0 +1,22 @@
+label{
+	color: #fff;
+	text-shadow: $blackshadow;
+	
+}
+.choose{
+margin: 6% 17%;
+}
+.formtext{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+	color: #fee192;
+	text-shadow: $blackshadow;
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	font-size: 2rem;
+	margin-top: 10px;
+}
+.formblock{
+	margin: 8%;
+}
+.addspace{
+    margin-bottom:15px;
+}

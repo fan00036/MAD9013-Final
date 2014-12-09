@@ -1,0 +1,66 @@
+@media (min-width: 950px) { 
+.locatright{
+	width:90%;
+	height: 300px;
+	margin:0 auto;
+	}
+.locatleft{
+		width:90%;
+		height: 300px;
+		margin:0 auto;
+	}
+
+.locationBG{
+	background-image: url('../img/locationBG.png');
+	background-repeat: repeat-y;
+	height: 1761px;
+}
+.mapblockR{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+	width: 50%;
+	height: 400px;
+	margin:0px 10%;	
+	float:right;
+}
+.mapblockL{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+	width: 50%;
+	height: 400px;
+	margin:3% 10%;	
+	float:left;
+}
+}
+
+
+@media (max-width: 949px) {
+	.locatright{
+	width:90%;
+	height: 300px;
+	margin:0 auto;
+	}
+.locatleft{
+		width:90%;
+		height: 300px;
+		margin:0 auto;
+	}
+	.locationBG{
+	background-image: url('../img/locationBG.png');
+	background-repeat: repeat-y;
+	height: 1761px;
+}
+.mapblockR{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+	width: 80%;
+	height: 400px;
+	margin:3% 10%;	
+	
+}
+.mapblockL{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+	width: 80%;
+	height: 400px;
+	margin:3% 10%;	
+
+}
+
+}

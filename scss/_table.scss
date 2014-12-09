@@ -1,0 +1,55 @@
+.table-striped > tbody > tr:nth-child(odd) {
+  background-color: #fff;
+	th{
+		text-align: center;
+		background-color: black;
+		color: #fff;
+	}
+	td{
+		font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+		text-align: center;
+	}
+	
+}
+.table-striped > tbody > tr:nth-child(even) {
+  background-color: #f0eeee;
+	td{
+		font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+		text-align: center;
+	}
+}
+
+
+.table-hover > tbody > tr:hover {
+  background-color: #a60202;
+	
+	td{
+		color: #fff;
+		text-shadow: 1px 1px black;
+	}
+	
+}
+
+.table{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+}
+.table-responsive{
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.firstgroup{
+	font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+	font-size: 4rem;
+	text-shadow: 1px 1px #fff;
+	color:#fcb801;
+}
+hr{
+	@include box-shadow(0px 3px 15px 3px rgba(0,0,0,0.81));
+}
+.standings{
+	margin-top: 5%;
+	margin-bottom: 8%;
+	
+}
+
